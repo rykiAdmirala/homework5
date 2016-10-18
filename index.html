@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cadastre-se | Homework 5</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -42,16 +44,18 @@
                 </div>
 
                 <form action="" method="" class="form-block">
-                    <input type="text" name="firstName" placeholder="First Name">
-                    <input type="text" name="lastName" placeholder="Last Name">
-                    <input type="email" name="email" placeholder="Email Address">
-                    <input type="password" name="password" placeholder="Choose Password">
-                    <input type="password" name="passwordConfirm" placeholder="Password Confirm">
-                    <div class="form-ad-check-block">
-                        <input type="checkbox" name="adCheck" value="adCheck">
+                    <div class="input-wrap">
+                        <input type="text" name="firstName" placeholder="First Name">
+                        <input type="text" name="lastName" placeholder="Last Name">
+                        <input type="email" name="email" placeholder="Email Address">
+                        <input type="password" name="password" placeholder="Choose Password">
+                        <input type="password" name="passwordConfirm" placeholder="Password Confirm">
+                    </div>
+                    <div class="ad-check-block">
+                        <input type="checkbox" name="adCheck" value="adCheck" id="adCheck">
                         <label for="adCheck">Send me Youbike updates and tips</label>
                     </div>
-                    <input type="submit" name="name" value="Create my Account">
+                    <input type="submit" name="name" value="Create my Account" class="form-submit">
                 </form>
 
                 <div class="form-agreement">
